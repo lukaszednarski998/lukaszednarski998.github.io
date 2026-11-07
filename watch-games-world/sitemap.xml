@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://lukaszednarski998.github.io/watch-games-world/</loc>
     <lastmod>2026-11-07</lastmod>
@@ -18,6 +18,28 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://lukaszednarski998.github.io/watch-games-world/index-ru.html" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://lukaszednarski998.github.io/watch-games-world/index-uk.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lukaszednarski998.github.io/watch-games-world/" />
+      <image:image><image:loc>https://lukaszednarski998.github.io/watch-games-world/banner.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/games-20260911/watch/arvion-my-pet-3d/screen-1.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/STRONA%20INTERNETOWA/SZACHY%20NA%20ZEGAREK/SZACHY%20NA%20ZEGAREK%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/STRONA%20INTERNETOWA/WARCABY%20NA%20ZEGAREK/WARCABY%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/games-20260911/watch/snake/screen-1.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/games-20260911/watch/arvion-breakout/screen-1.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/pet-evolution-3d/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-gravity-maze/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-mini-dogfight-3d/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-neon-drift/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-fishing-master/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-golf-master/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-basket-3d/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/november-20261104/arvion-darts-3d/image-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/arvion-watch-media-hub/01_ARVION_Watch_Media_Hub_Overview.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/STRONA%20INTERNETOWA/MUSIC%202%20WATCH/MUSIC%202%20WATCH%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/STRONA%20INTERNETOWA/VIDEO%202%20WATCH/VIDEO%202%20WATCH%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/STRONA%20INTERNETOWA/SPY%202%20WATCH/SPY%202%20WATCH%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/imported-new-products/ARVION%20WATCH%20FACE/ARVION%20WATCH%20FACE/ARVION%20WATCH%20FACE%201.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/coming-soon/file-2-watch-1.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/coming-soon/inspect-2-watch-1.png</image:loc></image:image>
+    <image:image><image:loc>https://lukaszednarski998.github.io/privacy-policy.html/assets/october-20261013/car-media-2-watch-pro/01.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://lukaszednarski998.github.io/watch-games-world/index-pl.html</loc>
