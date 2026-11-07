@@ -45,3 +45,13 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 @media(max-width:1000px){.product .thumb{height:280px!important}}
 @media(max-width:700px){.product .thumb{height:252px!important;padding:39px 9px 12px!important}}
 @media(max-width:470px){.product .thumb{height:290px!important;padding:40px 12px 14px!important}}
+
+
+/* Search-friendly, readable category introduction (all 14 languages). */
+.hero-slogan{font-size:clamp(18px,2.8vw,28px);font-weight:750;line-height:1.3;color:#c9b492;letter-spacing:-.02em;margin:0 auto 15px}
+.hero-slogan em{font-style:normal;color:#f5d28b}
+.seo-intro{margin:0 auto 44px;padding:25px clamp(17px,3vw,34px);max-width:1100px;background:linear-gradient(120deg,rgba(41,30,16,.78),rgba(12,11,10,.92));border:1px solid #59402a;border-radius:19px}
+.seo-intro h2{font-size:clamp(23px,2.9vw,31px);line-height:1.3;letter-spacing:-.026em;color:#f3d797;margin:0 0 13px}
+.seo-intro p{font-size:15px;line-height:1.85;color:#cabb9f;margin:0 0 15px}
+.seo-intro p:last-child{margin-bottom:0}
+@media(max-width:700px){.seo-intro{margin-bottom:28px}.seo-intro p{font-size:14px;line-height:1.75}.hero-slogan{font-size:18px}}
