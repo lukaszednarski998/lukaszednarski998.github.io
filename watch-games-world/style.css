@@ -62,3 +62,14 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 .platform-note p{margin:0;color:#e7dcc7;font-size:15px;line-height:1.65}
 .platform-note strong{color:#ffe1a4;font-weight:850}
 @media(max-width:700px){.platform-note{gap:9px;padding:12px 13px;margin:11px 0 15px}.platform-note-icon{font-size:21px}.platform-note p{font-size:13.5px;line-height:1.6}}
+
+/* Expandable watch-model names from the Play Console export; informational only. */
+.platform-note-content{flex:1;min-width:0}
+.watch-models-toggle{margin-top:12px;padding-top:11px;border-top:1px solid rgba(235,192,111,.28)}
+.watch-models-toggle summary{display:list-item;cursor:pointer;color:#ffe1a4;font-weight:800;line-height:1.5;font-size:14px;padding:5px 0}
+.watch-models-toggle summary:hover{text-decoration:underline}
+.watch-models-toggle summary:focus-visible{outline:2px solid #ffe1a4;outline-offset:3px;border-radius:4px}
+.platform-note .watch-models-note{margin:8px 0 14px;color:#e4cfb0;font-size:13px;line-height:1.65}
+.watch-models{padding:0;margin:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px}
+.watch-models li{border:1px solid rgba(235,192,111,.22);border-radius:9px;padding:7px 10px;font-size:13px;line-height:1.45;color:#f2e9d9;background:rgba(13,20,29,.45);overflow-wrap:anywhere}
+@media(max-width:700px){.watch-models{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:6px}.watch-models li{font-size:12px}.watch-models-toggle summary{font-size:13.5px}}
