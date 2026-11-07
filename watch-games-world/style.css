@@ -55,3 +55,10 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 .seo-intro p{font-size:15px;line-height:1.85;color:#cabb9f;margin:0 0 15px}
 .seo-intro p:last-child{margin-bottom:0}
 @media(max-width:700px){.seo-intro{margin-bottom:28px}.seo-intro p{font-size:14px;line-height:1.75}.hero-slogan{font-size:18px}}
+
+/* Clear explanation of Android-based Wear OS, visible above the promotional banner. */
+.platform-note{display:flex;align-items:flex-start;gap:12px;margin:14px 0 20px;padding:15px 19px;border:1px solid rgba(235,192,111,.42);border-radius:15px;background:linear-gradient(105deg,rgba(175,118,44,.19),rgba(38,34,28,.52));box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.platform-note-icon{flex:none;font-size:25px;line-height:1.35}
+.platform-note p{margin:0;color:#e7dcc7;font-size:15px;line-height:1.65}
+.platform-note strong{color:#ffe1a4;font-weight:850}
+@media(max-width:700px){.platform-note{gap:9px;padding:12px 13px;margin:11px 0 15px}.platform-note-icon{font-size:21px}.platform-note p{font-size:13.5px;line-height:1.6}}
