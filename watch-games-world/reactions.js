@@ -4,6 +4,23 @@
   const api='https://countapi.mileshilliard.com/api/v1';
   const lang=(document.documentElement.lang||'en').toLowerCase();
   const polish=lang.startsWith('pl');
+  const localized={
+    en:{already:'Already added from this browser.',failure:'Cannot save right now. Please try again.'},
+    pl:{already:'Już dodano z tej przeglądarki.',failure:'Nie można teraz zapisać. Spróbuj ponownie.'},
+    de:{already:'Von diesem Browser bereits hinzugefügt.',failure:'Speichern momentan nicht möglich. Bitte später erneut versuchen.'},
+    fr:{already:'Déjà ajouté depuis ce navigateur.',failure:'Enregistrement impossible. Veuillez réessayer plus tard.'},
+    es:{already:'Ya se ha añadido desde este navegador.',failure:'No se puede guardar ahora. Inténtalo de nuevo.'},
+    it:{already:'Già aggiunto da questo browser.',failure:'Impossibile salvare ora. Riprova più tardi.'},
+    'pt-br':{already:'Já foi adicionado neste navegador.',failure:'Não foi possível salvar agora. Tente novamente.'},
+    ja:{already:'このブラウザーから追加済みです。',failure:'現在保存できません。後でもう一度お試しください。'},
+    ko:{already:'이 브라우저에서 이미 추가했습니다.',failure:'지금 저장할 수 없습니다. 나중에 다시 시도하세요.'},
+    'zh-cn':{already:'此浏览器已添加。',failure:'暂时无法保存，请稍后重试。'},
+    tr:{already:'Bu tarayıcıdan zaten eklendi.',failure:'Şu anda kaydedilemiyor. Daha sonra tekrar deneyin.'},
+    id:{already:'Sudah ditambahkan dari browser ini.',failure:'Tidak dapat menyimpan sekarang. Coba lagi nanti.'},
+    ru:{already:'Уже добавлено из этого браузера.',failure:'Сейчас не удалось сохранить. Повторите попытку позже.'},
+    uk:{already:'Уже додано з цього браузера.',failure:'Зараз не вдалося зберегти. Спробуйте пізніше.'}
+  };
+  const msg=localized[lang]||localized.en;
   const configs=[
     {buttonId:'goldButton',countId:'goldCount',start:21154,key:'arvion_lukaszednarski998_gold_21154_v1',localKey:'arvionGoldAddedV1',name:polish?'sztabkę złota':'gold bar'},
     {buttonId:'heartButton',countId:'heartCount',start:45135,key:'arvion_lukaszednarski998_hearts_45135_v1',localKey:'arvionHeartAdded20261030V1',name:polish?'serduszko':'heart'}
@@ -52,7 +69,7 @@
       const done=saved(cfg.localKey);
       button.classList.toggle('is-added',done);
       button.setAttribute('aria-pressed',done?'true':'false');
-      if(done)button.title=polish?'Już dodano z tej przeglądarki':'Already added from this browser';
+      if(done)button.title=msg.already;
     }
     paint(0);
     mark();
@@ -63,7 +80,7 @@
     }
     button.addEventListener('click',async()=>{
       if(saved(cfg.localKey)){
-        notice(polish?'Już dodano z tej przeglądarki.':'You already added one from this browser.');
+        notice(msg.already);
         return;
       }
       const version=++revision;
@@ -71,7 +88,7 @@
       const count=await request(cfg.key,'hit');
       button.disabled=false;
       if(count===null){
-        notice(polish?'Nie można teraz zapisać. Spróbuj ponownie.':'Cannot save right now. Please try again.');
+        notice(msg.failure);
         return;
       }
       if(revision===version)paint(count);
