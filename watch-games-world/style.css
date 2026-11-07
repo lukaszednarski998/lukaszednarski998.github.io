@@ -73,3 +73,9 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 .watch-models{padding:0;margin:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px}
 .watch-models li{border:1px solid rgba(235,192,111,.22);border-radius:9px;padding:7px 10px;font-size:13px;line-height:1.45;color:#f2e9d9;background:rgba(13,20,29,.45);overflow-wrap:anywhere}
 @media(max-width:700px){.watch-models{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:6px}.watch-models li{font-size:12px}.watch-models-toggle summary{font-size:13.5px}}
+
+/* Prominent link to the verified-source device-name directory. */
+.top-links .device-nav-link{display:inline-flex;align-items:center;white-space:nowrap;gap:6px;color:#151006;background:#f5cd79;border:1px solid #ffe7ac;border-radius:99px;padding:7px 11px;font-weight:900}
+.top-links .device-nav-link:hover{color:#090604;background:#ffe5a8}
+#watch-models{scroll-margin-top:135px}
+@media(max-width:470px){.top-links .device-nav-link{display:inline-flex;font-size:12px;padding:6px 10px}}
