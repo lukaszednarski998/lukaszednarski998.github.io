@@ -33,3 +33,15 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 @media(max-width:1070px){.topbar{justify-content:center}.top-links{margin-left:0}.site-stats{order:3;width:100%;justify-content:center}}
 @media(max-width:700px){.topbar{gap:10px}.top-links a{display:inline}.site-stats{order:3}.language-section{padding:14px 0 9px}.flag-link{width:39px;height:37px;font-size:22px}.promo{margin:10px auto 0}.promo img{border-radius:10px}.hero{padding:27px 0 17px}.thumb{height:156px}}
 @media(max-width:470px){.brand{font-size:13px}.brand-icon{width:37px;height:37px}.top-links{font-size:12px}.top-links a{display:inline}.site-stat{height:35px;padding:0 6px}.site-stat img{width:22px;height:22px}.site-stat .stat-label,.site-stat .stat-plus{display:none}.site-stat .stat-count{font-size:12px}.flag-link{width:37px;height:35px}.hero .lead{font-size:14px}.promo img{border-radius:8px}}
+
+/* 2026-11-07: every original product picture must fit completely in its frame. */
+.product .thumb{height:306px!important;min-height:0;padding:43px 14px 16px!important;display:flex;align-items:center;justify-content:center;overflow:hidden!important;aspect-ratio:auto!important;background:radial-gradient(ellipse at center,#382512 0%,#120d08 78%)!important}
+.product .thumb .image-link{width:100%;height:100%;display:flex;align-items:center;justify-content:center;min-width:0;min-height:0;text-decoration:none;position:relative;z-index:1;overflow:visible}
+.product .thumb img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center center!important;transform:none!important;filter:none!important;border-radius:6px}
+.product:hover .thumb img,.product .thumb:hover img{transform:none!important;scale:1!important}
+.product .thumb:after{display:none!important;content:none!important}
+.product .corner,.product .soon{top:10px;z-index:2}
+.product .image-link:focus-visible{outline:2px solid #ffe2a1;outline-offset:3px}
+@media(max-width:1000px){.product .thumb{height:280px!important}}
+@media(max-width:700px){.product .thumb{height:252px!important;padding:39px 9px 12px!important}}
+@media(max-width:470px){.product .thumb{height:290px!important;padding:40px 12px 14px!important}}
