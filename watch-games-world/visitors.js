@@ -1,9 +1,9 @@
-/* Shared with main site: same counter key, same per-session marker. */
+/* Watch Games World independent view counter, starting at zero. */
 (()=>{'use strict';
 const root='https://countapi.mileshilliard.com/api/v1';
-const key='arvion_lukaszednarski998_site_views_301087_v2';
-const sessionKey='arvionVisitCounted301087V2';
-const start=301087;
+const key='wgw_watch_games_world_views_20261107_v1_k8b92';
+const sessionKey='wgwPageVisited20261107V1';
+const start=0;
 const output=document.getElementById('visitCount');
 if(!output)return;
 let counted=false;try{counted=sessionStorage.getItem(sessionKey)==='1'}catch(_){}
