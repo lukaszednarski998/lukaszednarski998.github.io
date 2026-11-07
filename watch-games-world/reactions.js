@@ -1,4 +1,4 @@
-/* ARVION public reactions. Counts are starting values plus live shared clicks. */
+/* Watch Games World independent public reactions, zero-based. */
 (function () {
   'use strict';
   const api='https://countapi.mileshilliard.com/api/v1';
@@ -22,8 +22,8 @@
   };
   const msg=localized[lang]||localized.en;
   const configs=[
-    {buttonId:'goldButton',countId:'goldCount',start:21154,key:'arvion_lukaszednarski998_gold_21154_v1',localKey:'arvionGoldAddedV1',name:polish?'sztabkę złota':'gold bar'},
-    {buttonId:'heartButton',countId:'heartCount',start:45135,key:'arvion_lukaszednarski998_hearts_45135_v1',localKey:'arvionHeartAdded20261030V1',name:polish?'serduszko':'heart'}
+    {buttonId:'goldButton',countId:'goldCount',start:0,key:'wgw_watch_games_world_gold_20261107_v1_r8d45',localKey:'wgwGoldAdded20261107V1',name:polish?'sztabkę złota':'gold bar'},
+    {buttonId:'heartButton',countId:'heartCount',start:0,key:'wgw_watch_games_world_hearts_20261107_v1_m27e1',localKey:'wgwHeartAdded20261107V1',name:polish?'serduszko':'heart'}
   ];
   const format=new Intl.NumberFormat(document.documentElement.lang||'en');
   function saved(key){try{return localStorage.getItem(key)==='1'}catch(e){return false}}
@@ -41,7 +41,7 @@
       if(!Number.isSafeInteger(count)||count<0)throw new Error('Invalid counter');
       return count;
     }catch(e){
-      console.warn('ARVION reactions temporarily unavailable:',action,e);
+      console.warn('WGW reactions temporarily unavailable:',action,e);
       return null;
     }finally{clearTimeout(timeout)}
   }
