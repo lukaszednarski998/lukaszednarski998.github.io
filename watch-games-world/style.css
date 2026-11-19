@@ -79,3 +79,6 @@ body{background:radial-gradient(ellipse 1000px 400px at 50% 0,rgba(151,91,17,.18
 .top-links .device-nav-link:hover{color:#090604;background:#ffe5a8}
 #watch-models{scroll-margin-top:135px}
 @media(max-width:470px){.top-links .device-nav-link{display:inline-flex;font-size:12px;padding:6px 10px}}
+
+/* MUSIC 2 WATCH - available in Google Play */
+.thumb .available{position:absolute;right:12px;top:13px;z-index:1;background:#153e32;color:#b8f7d7;border:1px solid #48b885;border-radius:9px;padding:6px 9px;font-size:11px;font-weight:850}
